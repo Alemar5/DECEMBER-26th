@@ -91,9 +91,18 @@ h2{
 	height: auto;
 }
 
+.spotify{
+	width: 200px;
+	height: auto;
+}
+
 .publi{
 	width: 200px;
 	height: auto;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
 }
 
 .progress-bar{
@@ -112,10 +121,11 @@ h2{
 	top: 19.3em;
 	bottom: 37em;
 	width: calc(var(--width, 0)*1%);
-	min-width: 2rem;
+	min-width: 2%;
 	max-width: calc(100% - 1em);
 	background-color: #D24B4B;
 	border-radius: 1em;
+	max-height: 90%;
 }
 
 input[type=text], select, textarea {
@@ -198,8 +208,4 @@ label{
 .wiwi{
 	max-width: 90%;
 	max-height: 90%;
-}
-
-.teaser{
-	font-family: fixedys;
 }
