@@ -24,6 +24,7 @@ overflow: hidden;
   width: 100%;
   padding-bottom: 56.25%; 
   height: 0;
+  transition: all 0.3s ease 0s;
 
   max-width: 100%;
 }
@@ -55,7 +56,7 @@ li, a{
 	font-family: fixedys;
 	color: white;
 	text-decoration: noone;
-	font-size: 40px;
+	font-size: 2.3vw;
 }
 
 header{
